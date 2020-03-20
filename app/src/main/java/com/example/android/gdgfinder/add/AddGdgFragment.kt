@@ -39,7 +39,6 @@ class AddGdgFragment : Fragment() {
                 binding.button.text=getString(R.string.done)
             }
         })
-
         setHasOptionsMenu(true)
         return binding.root
     }
